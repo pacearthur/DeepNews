@@ -123,16 +123,8 @@ The file **TrainModel.py** works in several steps :
 As soon as we have the 3 predicted articles uploaded on S3, the messenger bot is able to send the customized articles for each user. 
 
 
----
-title: 'Project documentation: create your own messenger bot with node.js'
-disqus: hackmd
----
 Create your own Messenger bot with Node.js
 ===
-
-## Table of Contents
-
-[TOC]
 
 ## Prerequisites
 
@@ -146,7 +138,6 @@ Here is what you need to follow this tutorial and set up your messenger bot :
 
 Install Node.js
 ---
-![Alt](https://imagizer.imageshack.com/img921/6763/sqcMd4.png =80x50)
 
 **What is Node.js?**
 
@@ -159,7 +150,6 @@ If Node.js is installed you will see its version.
 
 Install npm
 ---
-![Alt](https://imagizer.imageshack.com/img924/8606/6HNgAQ.png =50x25)
 
 **What is npm ?**
 
@@ -172,7 +162,6 @@ If npm is installed you will see its version.
 
 Install Heroku Toolbelt
 ---
-![Alt](https://imagizer.imageshack.com/img923/9985/ive8Fn.png =125x40)
 
 **What is Heroku ?**
 
@@ -185,7 +174,6 @@ If Heroku is installed you will see its version.
 
 Install Git
 ---
-![Alt](https://imagizer.imageshack.com/img924/6743/u52DgE.png =70x30)
 
 **What is Git ?**
 
@@ -239,15 +227,12 @@ license: MIT
 ``` 
 Now, if you have configured your folder with npm correctly, you will be able to see package.json in your myMessengerBot folder there:
 
-![Alt](https://imagizer.imageshack.com/img921/4219/BNfOWX.png =130x)
 
 7. Install Node.js modules
 ```
 npm install express request $ body-parser —save
 ``` 
 After this step, your myMessengerBot folder looks like this:
-
-![Alt](https://hostpic.xyz/files/15568857881773599074.png =160x)
 
 8. Download the Javascript code needed
 
@@ -257,18 +242,13 @@ After this step, your myMessengerBot folder looks like this:
 
 And put it on your desktop. You now have these two folders on your desktop:
 
-![Alt](https://imagizer.imageshack.com/img923/4925/Pjg136.png =200x)
-
 9. Now, unzip the FacebookBot-master.zip file and you will be able to see this:
-
-![Alt](https://hostpic.xyz/files/15568854432500921323.png =220x)
 
 10. Copy and paste these two files from the unzip fodler to your myMessenger bot folder: 
 - Procfile
 - index.js
 
 Now, we are here, your local environment **myMessengerBot** is ready: 
-![Alt](https://hostpic.xyz/files/15568861272808899595.png =150x)
 
 ## Configure your Facebook developer account
 
@@ -326,8 +306,6 @@ git push heroku master
 > **Callback URL:** https://myMessengerBot.herokuapp.com/webhook
 > **Check the token:** Bot_Messenger_App
 > **Tick all**
->
-![Alt](https://hostpic.xyz/files/15568938991374707507.png =700x)
 
 You now have the possibility to modify the index.js file as you wish.
 
