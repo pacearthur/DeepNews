@@ -22,7 +22,7 @@ incremental==17.5.0
 jmespath==0.9.4
 Keras-Applications==1.0.7
 Keras-Preprocessing==1.0.9
-lxml==4.3.3
+lxml==4.6.2
 Markdown==3.1
 mock==2.0.0
 numpy==1.16.3
